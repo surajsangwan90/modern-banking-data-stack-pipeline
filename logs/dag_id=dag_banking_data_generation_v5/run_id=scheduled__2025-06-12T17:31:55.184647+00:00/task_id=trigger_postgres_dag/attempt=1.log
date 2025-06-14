@@ -1,0 +1,11 @@
+{"timestamp":"2025-06-12T17:32:33.862532","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T17:32:33.863130","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T17:32:34.065199Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.065380Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.065511Z","level":"info","event":"Current task name:trigger_postgres_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.065565Z","level":"info","event":"Dag name:dag_banking_data_generation_v5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:33.994645","level":"info","event":"Triggering Dag Run.","trigger_dag_id":"dag_load_data_into_postgres_v5","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.065355","level":"info","event":"Dag Run triggered successfully.","trigger_dag_id":"dag_load_data_into_postgres_v5","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.168717Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.168877Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T17:32:34.168923Z","level":"info","event":"Task operator:<Task(TriggerDagRunOperator): trigger_postgres_dag>","chan":"stdout","logger":"task"}

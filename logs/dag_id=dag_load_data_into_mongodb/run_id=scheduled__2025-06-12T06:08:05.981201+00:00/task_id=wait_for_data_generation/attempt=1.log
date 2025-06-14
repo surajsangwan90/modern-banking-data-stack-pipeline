@@ -1,0 +1,92 @@
+{"timestamp":"2025-06-12T06:08:08.493802","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:08:08.494687","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:08:08.691162Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:08.691487Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:08.691678Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:08.693917Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:08.642179","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:08:08.716490","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:08:39.771002","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:08:39.772224","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:08:39.943164Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:39.943988Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:39.944222Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:39.944423Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:08:39.943667","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:08:39.952889","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:09:11.214309","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:09:11.215050","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:09:11.427024Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:11.427513Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:11.427787Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:11.427916Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:11.427362","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:09:11.440593","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:09:43.451224","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:09:43.451882","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:09:43.614316Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:43.614592Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:43.614732Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:43.614833Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:09:43.614648","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:09:43.623156","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:10:15.122335","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:10:15.125524","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:10:15.324663Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:15.324876Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:15.324952Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:15.325006Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:15.325672","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:10:15.335787","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:10:46.843376","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:10:46.846596","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:10:47.150481Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:47.150877Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:47.151110Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:47.151245Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:10:47.151329","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:10:47.169276","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:11:20.252691","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:11:20.253918","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:11:20.607500Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:20.621037Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:20.621671Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:20.622182Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:20.609091","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:11:20.654117","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:11:54.732573","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:11:54.733253","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:11:56.385120Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:56.386810Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:56.387136Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:56.388010Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:11:56.387706","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:11:56.414863","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:12:27.415339","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:12:27.416661","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:12:28.221353Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:28.222381Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:28.222628Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:28.222829Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:28.222087","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:12:28.236948","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:12:59.796550","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:12:59.797726","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:12:59.986055Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:59.986200Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:59.986258Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:59.986301Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:12:59.986727","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:12:59.995224","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.069565","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:13:31.070268","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:13:31.610513Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.610720Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.610840Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.610904Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.613400","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:08:05.981201+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:13:31.637174","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"AirflowSensorTimeout","exc_value":"Sensor has timed out; run duration of 322.896742 seconds exceeds the specified timeout of 300.0.","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/sensors/external_task.py","lineno":418,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/sensor.py","lineno":243,"name":"execute"}]}]}
+{"timestamp":"2025-06-12T06:13:31.666399Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.666563Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.666702Z","level":"info","event":"Task:<Task(ExternalTaskSensor): wait_for_data_generation>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:13:31.668982Z","level":"info","event":"Failure caused by Sensor has timed out; run duration of 322.896742 seconds exceeds the specified timeout of 300.0.","chan":"stdout","logger":"task"}

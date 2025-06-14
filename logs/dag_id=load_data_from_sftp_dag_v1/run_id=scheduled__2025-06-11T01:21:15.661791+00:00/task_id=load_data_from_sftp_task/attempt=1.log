@@ -1,0 +1,17 @@
+{"timestamp":"2025-06-11T01:21:16.776943","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-11T01:21:16.777725","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_data_from_sftp.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-11T01:21:16.795432","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-11T01:21:16.805614","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-11T01:21:16.844097Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:16.844410Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:16.844677Z","level":"info","event":"Current task name:load_data_from_sftp_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:16.844908Z","level":"info","event":"Dag name:load_data_from_sftp_dag_v1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:16.805833","level":"info","event":"Reading CSV files from SFTP path: /opt/airflow/sftp_data/","logger":"root"}
+{"timestamp":"2025-06-11T01:21:16.844473","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-11T01:21:16.846169","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T01:21:16.919121","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T01:21:17.068398","level":"info","event":"Data loaded successfully from SFTP path.","logger":"root"}
+{"timestamp":"2025-06-11T01:21:17.070644","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-11T01:21:17.101302Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:17.101448Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T01:21:17.101517Z","level":"info","event":"Task operator:<Task(PythonOperator): load_data_from_sftp_task>","chan":"stdout","logger":"task"}

@@ -1,0 +1,12 @@
+{"timestamp":"2025-06-12T11:08:13.048895","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T11:08:13.049609","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T11:08:13.486481Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:13.486627Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:13.486682Z","level":"info","event":"Current task name:generate_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:13.486733Z","level":"info","event":"Dag name:dag_banking_data_generation_v5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:31.190272Z","level":"info","event":"✅ Customer data generated and saved to SFTP: /opt/airflow/sftp_data/run_20250612_110813","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:31.190560Z","level":"info","event":"✅ All other data generated and saved to: /opt/airflow/dags/banking_airflow_pipeline/data/run_20250612_110813","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:31.268048","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-12T11:08:31.302551Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:31.302726Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:31.302831Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): generate_data>","chan":"stdout","logger":"task"}

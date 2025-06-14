@@ -1,0 +1,12 @@
+{"timestamp":"2025-06-12T06:50:29.757557","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:50:29.761976","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:50:30.335073Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:50:30.335225Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:50:30.335281Z","level":"info","event":"Current task name:wait_for_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:50:30.335325Z","level":"info","event":"Dag name:dag_load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:50:30.285684","level":"info","event":"Poking for DAG 'dag_banking_data_generation' on 2025-06-12T06:50:24.905610+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-06-12T06:50:30.352089","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-12T07:14:31.867510","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T07:14:31.868358","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T07:14:32.676180","level":"error","event":"DAG not found during start up","dag_id":"dag_load_data_into_mongodb","bundle":"BundleInfo(name='dags-folder', version=None)","path":"banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"task"}
+{"timestamp":"2025-06-12T07:14:38.218910Z","level":"warning","event":"Process exited abnormally","exit_code":1,"logger":"task"}

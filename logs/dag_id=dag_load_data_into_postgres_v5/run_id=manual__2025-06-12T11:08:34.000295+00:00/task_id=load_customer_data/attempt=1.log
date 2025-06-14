@@ -1,0 +1,20 @@
+{"timestamp":"2025-06-12T11:08:46.956709","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T11:08:46.957549","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingesting_banking_data_into_PostgreSQL.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T11:08:47.049708Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.052524Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.053035Z","level":"info","event":"Current task name:load_customer_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.053462Z","level":"info","event":"Dag name:dag_load_data_into_postgres_v5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.336197","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.348976","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.349716","level":"info","event":"Reading CSV files from sftp path: /opt/airflow/sftp_data/run_20250612_110813","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.378252","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.380181","level":"info","event":"Loading customer data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.440333","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.484911","level":"info","event":"Customer data loaded successfully.","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.559565","level":"info","event":"Loading data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.563176","level":"info","event":"PostgreSQL connection closed.","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.563502","level":"info","event":"Data loading completed successfully.","logger":"root"}
+{"timestamp":"2025-06-12T11:08:47.569130","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-12T11:08:47.594787Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.595630Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T11:08:47.595941Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_customer_data>","chan":"stdout","logger":"task"}

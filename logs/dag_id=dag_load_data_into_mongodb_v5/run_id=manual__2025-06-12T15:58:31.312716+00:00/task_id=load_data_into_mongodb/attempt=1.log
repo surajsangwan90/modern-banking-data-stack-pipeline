@@ -1,0 +1,10 @@
+{"timestamp":"2025-06-12T15:58:33.693055","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T15:58:33.693548","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_log_data_into_mongodb.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T15:58:33.902900Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903044Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903105Z","level":"info","event":"Current task name:load_data_into_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903154Z","level":"info","event":"Dag name:dag_load_data_into_mongodb_v5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903203Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903242Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.903278Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_data_into_mongodb>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T15:58:33.855940","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

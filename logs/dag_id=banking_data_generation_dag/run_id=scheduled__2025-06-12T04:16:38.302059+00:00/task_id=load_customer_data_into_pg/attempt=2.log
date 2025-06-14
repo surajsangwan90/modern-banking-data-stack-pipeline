@@ -1,0 +1,20 @@
+{"timestamp":"2025-06-12T04:43:58.841138","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T04:43:58.842162","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T04:43:59.191870Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.192112Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.192252Z","level":"info","event":"Current task name:load_customer_data_into_pg","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.192368Z","level":"info","event":"Dag name:banking_data_generation_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.150458","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.179734","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.180834","level":"info","event":"Reading CSV files from sftp path: /opt/airflow/sftp_data/run_20250612_044338","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.233228","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.236499","level":"info","event":"Loading customer data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.348476","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-12T04:43:59.375037","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"UniqueViolation","exc_value":"duplicate key value violates unique constraint \"customer_pkey\"\nDETAIL:  Key (customer_id)=(224937) already exists.\nCONTEXT:  COPY customer, line 1\n","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/banking_airflow_pipeline/load_data_from_2Source_into_pg.py","lineno":324,"name":"load_customer_data_into_pg"}]}]}
+{"timestamp":"2025-06-12T04:43:59.377221Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377370Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377450Z","level":"info","event":"Task:<Task(PythonOperator): load_customer_data_into_pg>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377514Z","level":"info","event":"Failure caused by duplicate key value violates unique constraint \"customer_pkey\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377561Z","level":"info","event":"DETAIL:  Key (customer_id)=(224937) already exists.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377606Z","level":"info","event":"CONTEXT:  COPY customer, line 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T04:43:59.377651Z","level":"info","event":"","chan":"stdout","logger":"task"}

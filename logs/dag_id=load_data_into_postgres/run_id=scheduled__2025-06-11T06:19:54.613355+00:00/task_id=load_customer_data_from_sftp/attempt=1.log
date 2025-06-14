@@ -1,0 +1,21 @@
+{"timestamp":"2025-06-11T06:19:56.467934","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-11T06:19:56.468625","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_data_from_sftp.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-11T06:19:56.485036","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.546274Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.546517Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.546651Z","level":"info","event":"Current task name:load_customer_data_from_sftp","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.546802Z","level":"info","event":"Dag name:load_data_into_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.500910","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.501089","level":"info","event":"Reading CSV files from local path: /opt/airflow/sftp_data/","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.560614","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.563310","level":"info","event":"Loading customer data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.650209","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.707320","level":"info","event":"Customer data loaded successfully.","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.754730","level":"info","event":"Loading data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.755246","level":"info","event":"PostgreSQL connection closed.","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.755542","level":"info","event":"Data loading completed successfully.","logger":"root"}
+{"timestamp":"2025-06-11T06:19:56.758067","level":"info","event":"Done. Returned value was: Data loaded successfully from local customers csv to PostgreSQL database.","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-11T06:19:56.758538","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01975da5-2d6e-78ba-9de8-7093786a8914'), task_id='load_customer_data_from_sftp', dag_id='load_data_into_postgres', run_id='scheduled__2025-06-11T06:19:54.613355+00:00', try_number=1, map_index=-1, hostname='70ffd000aa3c', context_carrier={}, task=<Task(PythonOperator): load_customer_data_from_sftp>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 6, 11, 6, 19, 55, 810082, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.806724Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.806995Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T06:19:56.807124Z","level":"info","event":"Task operator:<Task(PythonOperator): load_customer_data_from_sftp>","chan":"stdout","logger":"task"}

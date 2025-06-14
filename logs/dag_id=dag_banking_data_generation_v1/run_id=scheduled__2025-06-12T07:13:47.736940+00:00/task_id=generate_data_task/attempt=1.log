@@ -1,0 +1,12 @@
+{"timestamp":"2025-06-12T07:14:18.068039","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T07:14:18.073506","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T07:14:18.468655Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:18.469058Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:18.469272Z","level":"info","event":"Current task name:generate_data_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:18.469325Z","level":"info","event":"Dag name:dag_banking_data_generation_v1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:45.063185Z","level":"info","event":"✅ Customer data generated and saved to SFTP: /opt/airflow/sftp_data/run_20250612_071418","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:45.063455Z","level":"info","event":"✅ All other data generated and saved to: /opt/airflow/dags/banking_airflow_pipeline/data/run_20250612_071418","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:45.134138","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-12T07:14:45.170537Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:45.170707Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T07:14:45.170804Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): generate_data_task>","chan":"stdout","logger":"task"}

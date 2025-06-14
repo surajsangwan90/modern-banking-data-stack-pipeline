@@ -1,0 +1,20 @@
+{"timestamp":"2025-06-11T02:06:22.477735","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-11T02:06:22.478460","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_data_from_sftp.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-11T02:06:22.498411","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.536950Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.537249Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.537400Z","level":"info","event":"Current task name:load_data_from_sftp_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.537531Z","level":"info","event":"Dag name:load_data_from_sftp_dag_v1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.508695","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.508898","level":"info","event":"Reading CSV files from SFTP path: /opt/airflow/sftp_data/","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.573063","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.576477","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.673241","level":"info","event":"Loading customers data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T02:06:22.688248","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"UniqueViolation","exc_value":"duplicate key value violates unique constraint \"customer_pkey\"\nDETAIL:  Key (customer_id)=(770487) already exists.\nCONTEXT:  COPY customer, line 1\n","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/banking_airflow_pipeline/load_data_from_sftp.py","lineno":53,"name":"load_data_from_sftp_path"}]}]}
+{"timestamp":"2025-06-11T02:06:22.689398Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.689704Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.689922Z","level":"info","event":"Task:<Task(PythonOperator): load_data_from_sftp_task>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.690123Z","level":"info","event":"Failure caused by duplicate key value violates unique constraint \"customer_pkey\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.690282Z","level":"info","event":"DETAIL:  Key (customer_id)=(770487) already exists.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.690427Z","level":"info","event":"CONTEXT:  COPY customer, line 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T02:06:22.690574Z","level":"info","event":"","chan":"stdout","logger":"task"}

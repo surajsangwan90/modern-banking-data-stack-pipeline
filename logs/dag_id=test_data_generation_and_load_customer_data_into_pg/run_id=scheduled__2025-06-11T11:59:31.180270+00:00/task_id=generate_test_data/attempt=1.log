@@ -1,0 +1,12 @@
+{"timestamp":"2025-06-11T11:59:35.056193","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-11T11:59:35.058875","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/test_dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-11T11:59:35.420171Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T11:59:35.422818Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T11:59:35.422989Z","level":"info","event":"Current task name:generate_test_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T11:59:35.423046Z","level":"info","event":"Dag name:test_data_generation_and_load_customer_data_into_pg","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T12:00:39.860636Z","level":"info","event":"✅ Customer data generated and saved to SFTP: /opt/airflow/sftp_data/run_20250611_115935","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T12:00:39.860925Z","level":"info","event":"✅ All other data generated and saved to: /opt/airflow/dags/banking_airflow_pipeline/data/run_20250611_115935","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T12:00:39.940955","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-11T12:00:39.986395Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T12:00:39.986543Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T12:00:39.986592Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_test_data>","chan":"stdout","logger":"task"}

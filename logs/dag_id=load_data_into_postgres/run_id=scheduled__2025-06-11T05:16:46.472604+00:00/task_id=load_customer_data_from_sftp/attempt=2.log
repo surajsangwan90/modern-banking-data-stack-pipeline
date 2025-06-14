@@ -1,0 +1,17 @@
+{"timestamp":"2025-06-11T05:18:14.757436","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-11T05:18:14.758176","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingest_data_from_sftp.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-11T05:18:14.779176","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-11T05:18:14.788949","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-11T05:18:14.789130","level":"info","event":"Reading CSV files from local path: /opt/airflow/sftp_data/","logger":"root"}
+{"timestamp":"2025-06-11T05:18:14.908179Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.910093Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.910662Z","level":"info","event":"Current task name:load_customer_data_from_sftp","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.911336Z","level":"info","event":"Dag name:load_data_into_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.847962","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-11T05:18:14.850158","level":"info","event":"Loading customer data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-11T05:18:14.961531","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"UndefinedTable","exc_value":"relation \"local.customers\" does not exist\n","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/banking_airflow_pipeline/load_data_from_2Source_into_pg.py","lineno":292,"name":"load_customer_data_into_pg"}]}]}
+{"timestamp":"2025-06-11T05:18:14.962364Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.962964Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.964521Z","level":"info","event":"Task:<Task(PythonOperator): load_customer_data_from_sftp>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.964890Z","level":"info","event":"Failure caused by relation \"local.customers\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-11T05:18:14.965846Z","level":"info","event":"","chan":"stdout","logger":"task"}

@@ -1,0 +1,20 @@
+{"timestamp":"2025-06-13T06:36:14.968128","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-13T06:36:14.968795","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_ingesting_banking_data_into_PostgreSQL.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-13T06:36:15.030611Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:15.031043Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:15.031274Z","level":"info","event":"Current task name:load_credit_cards_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:15.031448Z","level":"info","event":"Dag name:dag_load_data_into_postgres_v8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:14.997884","level":"info","event":"Connecting to PostgreSQL database...","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.012219","level":"info","event":"Connection established successfully.","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.015558","level":"info","event":"Reading CSV files from local path: /opt/airflow/dags/banking_airflow_pipeline/data/run_20250613_063543","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.023129","level":"info","event":"Adding metadata to dataframes...","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.024338","level":"info","event":"Loading accounts data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.038479","level":"info","event":"Loading credit cards data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.060987","level":"info","event":"Credit cards data loaded successfully.","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.080266","level":"info","event":"Loading data into PostgreSQL...","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.080499","level":"info","event":"PostgreSQL connection closed.","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.080600","level":"info","event":"Data loading completed successfully.","logger":"root"}
+{"timestamp":"2025-06-13T06:36:15.080857","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-13T06:36:15.104398Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:15.104557Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-13T06:36:15.104615Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_credit_cards_data>","chan":"stdout","logger":"task"}

@@ -1,0 +1,7 @@
+pandas
+faker
+numpy
+psycopg2-binary
+pymongo
+python-dotenv
+requests

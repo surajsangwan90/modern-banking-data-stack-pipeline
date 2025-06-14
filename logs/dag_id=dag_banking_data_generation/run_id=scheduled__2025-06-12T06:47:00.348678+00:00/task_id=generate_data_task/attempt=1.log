@@ -1,0 +1,12 @@
+{"timestamp":"2025-06-12T06:47:02.236519","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-12T06:47:02.237146","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_airflow_pipeline/dag_data_generation.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-12T06:47:02.368143Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:02.368271Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:02.368333Z","level":"info","event":"Current task name:generate_data_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:02.368387Z","level":"info","event":"Dag name:dag_banking_data_generation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:36.719857Z","level":"info","event":"✅ Customer data generated and saved to SFTP: /opt/airflow/sftp_data/run_20250612_064702","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:36.720022Z","level":"info","event":"✅ All other data generated and saved to: /opt/airflow/dags/banking_airflow_pipeline/data/run_20250612_064702","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:36.832654","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-06-12T06:47:36.917725Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:36.917907Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-12T06:47:36.917976Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): generate_data_task>","chan":"stdout","logger":"task"}
